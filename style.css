@@ -26,3 +26,42 @@ body{
 button{
     font-size: x-large;
 }
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    list-style-type: none;
+    border-bottom: 1px solid #9f9f9f;
+    display: flex;
+    justify-content: space-between; 
+ }
+li:hover {
+    background-color: #dfdfdf;
+    transition-duration: 0.2s;
+}
+a:visited {
+    color: lightgray;
+}
+
+a:hover, a:active {
+    color: #eee;
+}
+
+    h2{
+        color: dfdfdf;
+    }
+
+
+  ul li {
+    display: inline-block;
+    padding-left: 20px;
+  }
+
+  form-control {
+    width: 100px;
+  }
